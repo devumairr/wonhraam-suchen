@@ -1,0 +1,36 @@
+.inputContainer {
+  position: relative;
+  width: 100%;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 0.725rem 1rem;
+  padding-right: 2.25rem;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 4px 134px rgba(0, 0, 0, 0.09);
+}
+
+.inputContainer input::placeholder {
+    font-size: 12px;
+}
+
+.inputContainer input:focus-visible {
+  outline: 1px solid #0070f3;
+}
+
+.inputContainer img {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+
+.inputContainer button {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
